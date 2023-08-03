@@ -58,7 +58,6 @@ public class LottoShop {
 		users[0].setRank(winNum);	// 나의 등수 설정. 
 		
 		reward.setWinnerCnt(users[0].rank); 
-		br.close();
 	}
 	
 	public int[] genRandom() {
